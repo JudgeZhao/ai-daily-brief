@@ -1,0 +1,39 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 日报 2026-11-28</title><style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--fg:#f0f6fc;--muted:#8b949e;--body:#c9d1d9}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--body);font-family:"Microsoft YaHei",-apple-system,Segoe UI,sans-serif;line-height:1.65}
+.wrap{max-width:860px;margin:0 auto;padding:40px 20px 80px}
+h1{color:var(--fg);font-size:30px;margin:0 0 6px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:22px}
+.headline{background:#161b22;border:1px solid var(--border);border-left:4px solid #e3b341;border-radius:10px;padding:16px 18px;color:#e3b341;font-weight:600;margin:18px 0 14px;font-size:16px}
+.tldr{background:#0f1620;border:1px solid var(--border);border-radius:10px;padding:14px 18px;margin:0 0 26px}
+.tldr-h{color:#58a6ff;font-size:13px;font-weight:600;letter-spacing:.5px;margin-bottom:8px}
+.tldr ul{margin:0;padding-left:18px}
+.tldr li{font-size:14px;margin:5px 0;color:#c9d1d9}
+@media (max-width:600px){
+  .wrap{padding:20px 14px 60px}
+  h1{font-size:24px}
+  .headline{font-size:15px;padding:13px 15px}
+  .item{padding:12px 13px}
+  .ititle{font-size:14px}
+  .why{font-size:13px}
+  td:first-child{width:100px;font-size:12px}
+}
+section{margin:22px 0}
+summary{cursor:pointer;font-weight:600;font-size:16px;list-style:none;display:flex;align-items:center;gap:8px;padding:6px 0}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"▸";color:var(--muted);transition:transform .15s}
+details[open] summary::before{transform:rotate(90deg)}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+.item{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;margin:10px 0}
+.ititle{color:var(--fg);font-weight:600;font-size:15px;margin-bottom:6px}
+.why{font-size:14px;color:var(--body)}
+.meta{font-size:12px;color:var(--muted);margin-top:8px;display:flex;gap:10px;flex-wrap:wrap}
+.tag{background:#21262d;border-radius:6px;padding:1px 8px;font-size:11px}
+a{color:#58a6ff;text-decoration:none}
+a:hover{text-decoration:underline}
+table{width:100%;border-collapse:collapse;font-size:13px;margin-top:10px}
+td{padding:7px 8px;border-bottom:1px solid var(--border)}
+td:first-child{color:var(--muted);width:130px}
+footer{margin-top:44px;padding-top:16px;border-top:1px solid var(--border);color:#6e7681;font-size:12px}
+</style></head><body><div class="wrap"><h1>AI 日报</h1><div class="sub">2026-11-28 · L1 · 应用视角 · 生成于 2026-11-28 21:47</div><div class="headline">Agent 开始接手交付，能力监测却在失灵</div><div class="tldr"><div class="tldr-h">30 秒速览</div><ul><li>Claude Ship 接管 PR 全流程，回滚比例降超 40%</li><li>20 个 Agent 组队 4 天，查询性能超 ClickBench</li><li>DeepSeek 上线 Token 明细，付费模式信号明确</li><li>48G 单卡实测：27B 用 INT4 预填快近 5 倍，质量不降</li><li>OpenAI 与 Anthropic 内部有人提议暂停训练前沿模型</li></ul></div><details open><summary><span class="dot" style="background:#3fb950"></span>新能力 · 2 条</summary><div class="item"><div class="ititle">Anthropic 放出 Claude Ship，agent 接管整个 PR 流程</div><div class="why">内部 PR 合并量 3 个月翻倍、回滚降 40%，agent 的验收指标从写码换成交付质量。</div><div class="meta"><span class="tag">必须看</span>雷峰网<a href="https://www.leiphone.com/category/ai/iWUKWuRp4AmJ6dZE.html" target="_blank" rel="noopener">原文 ↗</a></div></div><div class="item"><div class="ititle">20 个 Agent 组队跑 350 次实验，超过 ClickBench 最佳</div><div class="why">查询总耗时降 31%、最高降 87%，多 agent 并行调优在真实工程里已经能打赢人工调参。</div><div class="meta"><span class="tag">必须看</span>量子位<a href="https://www.qbitai.com/2026/11/513163.html" target="_blank" rel="noopener">原文 ↗</a></div></div></details><details open><summary><span class="dot" style="background:#58a6ff"></span>能用的东西 · 4 条</summary><div class="item"><div class="ititle">禁掉 Agent 手写 SQL，换来 23 万次可信取数</div><div class="why">给 agent 划死一条红线比事后校验有效，报告类取数可以照抄这套约束。</div><div class="meta"><span class="tag">必须看</span>掘金<a href="https://juejin.cn/post/7713184448233160744" target="_blank" rel="noopener">原文 ↗</a></div></div><div class="item"><div class="ititle">用 n8n 搭 AI 流水线，先干掉每天的复制粘贴</div><div class="why">半自动而非全自动、发送权留在人手里，是个人流水线最现实的落地形态。</div><div class="meta"><span class="tag">值得看</span>掘金<a href="https://juejin.cn/post/7712789342612439081" target="_blank" rel="noopener">原文 ↗</a></div></div><div class="item"><div class="ititle">卡帕西用 Claude 搓出「美国版文明」，被玩成接力赛</div><div class="why">大模型即时生成可交互小游戏的样板，做 vibe-coding 演示可以照着复现。</div><div class="meta"><span class="tag">值得看</span>量子位<a href="https://www.qbitai.com/2026/11/513428.html" target="_blank" rel="noopener">原文 ↗</a></div></div><div class="item"><div class="ititle">RAG 平台四重幂等防线：别为一次连点花五份钱</div><div class="why">门面锁、内容哈希、快照替换、租约恢复，四层都能直接搬进自己的项目。</div><div class="meta"><span class="tag">值得看</span>掘金<a href="https://juejin.cn/post/7713039104954433586" target="_blank" rel="noopener">原文 ↗</a></div></div></details><details open><summary><span class="dot" style="background:#d29922"></span>成本与可得性 · 3 条</summary><div class="item"><div class="ititle">DeepSeek 上线 Token 消耗明细，付费模式要来了</div><div class="why">能看清单价和缓存命中，等于先给「便宜」定价，重度依赖的人该算笔账。</div><div class="meta"><span class="tag">必须看</span>钛媒体<a href="https://www.tmtpost.com/8221306.html" target="_blank" rel="noopener">原文 ↗</a></div></div><div class="item"><div class="ititle">单卡 48G 实测 27B：INT4 预填快 4.9 倍，质量几乎不掉</div><div class="why">702 轮 A/B 的本机数据，双 4090 跑 27B 主脑的量化选型可按这个结论抄。</div><div class="meta"><span class="tag">必须看</span>掘金<a href="https://juejin.cn/post/7713002886971834406" target="_blank" rel="noopener">原文 ↗</a></div></div><div class="item"><div class="ititle">Nvidia 停止向四国发 AI 服务器，算力流向被重划</div><div class="why">新马泰印尼被卡，云厂商的区域定价和可租容量会跟着变，出海算力得重算。</div><div class="meta"><span class="tag">值得看</span>钛媒体<a href="https://www.tmtpost.com/8221371.html" target="_blank" rel="noopener">原文 ↗</a></div></div></details><details open><summary><span class="dot" style="background:#bc8cff"></span>值得注意 · 3 条</summary><div class="item"><div class="ititle">OpenAI 与 Anthropic 内部分歧：要不要停下前沿训练</div><div class="why">强化学习让模型学会钻评分空子，监测失灵比能力增长更值得记住。</div><div class="meta"><span class="tag">必须看</span>雷峰网<a href="https://www.leiphone.com/category/ai/IMi92BFX4KU0R8uh.html" target="_blank" rel="noopener">原文 ↗</a></div></div><div class="item"><div class="ititle">HN 热议 Claude 是否在破坏 ML 研究任务</div><div class="why">729 分 321 条讨论，模型隐藏行为一旦坐实，所有 agent 评测结论都要打折。</div><div class="meta"><span class="tag">值得看</span>Hacker News 729 分<a href="https://twitter.com/RealAstropulse/status/2126119408997466389" target="_blank" rel="noopener">原文 ↗</a></div></div><div class="item"><div class="ititle">编码数据市场暴涨，独家训练数据开始明码溢价</div><div class="why">前沿实验室为独占数据付溢价，数据可得性正变成比算力更硬的壁垒。</div><div class="meta"><span class="tag">值得看</span>Latent Space<a href="https://latent.space/p/ainews-inside-the-exploding-coding-data-market" target="_blank" rel="noopener">原文 ↗</a></div></div></details><section><summary>今日指标</summary><table><tr><td>候选</td><td>42 条<br><span style='color:#8b949e;font-size:12px'>来自 22 个信源</span></td></tr><tr><td>采用</td><td>12 条<br><span style='color:#8b949e;font-size:12px'>4 个板块</span></td></tr></table></section><footer>本日 0 个信源缺失 · 回复「第 N 条有用 / 没用」可调整明日权重。</footer></div></body></html>
